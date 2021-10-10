@@ -109,12 +109,14 @@ body::after{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     width: 90%;
     margin: 20px 0;
+    padding: 15px 0;
 }
 .proceed:active{
     transform: scale(0.98);
     background-color: hsl(245, 75%, 57%);
 }
 .cancel{
+    padding: 15px 0;
     cursor: pointer;
     color: hsl(224, 23%, 55%);
     width: 90%;
